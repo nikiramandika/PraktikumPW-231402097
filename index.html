@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav class="wrapper" id="navbar">
+          <div class="brand">
+            <div class="logo">
+              <img src="image/logo.png">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="header-text">
+          <p>Web Developer.</p>
+          <h1>Hallo, I'm <span>Niki Ramandika</span> <br />from Indonesia</h1>
+        </div>
+    </div>
+    <!------------about----------->
+    <div id="about">
+      <div class="dcontainer">
+        <div class="row">
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem doloremque placeat asperiores aliquid ea neque qui
+              recusandae aut corporis odit inventore ut ratione, molestias
+              eligendi aperiam. Labore ut laboriosam, nemo obcaecati quasi,
+              ducimus vitae minima libero tempora aperiam commodi neque.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web development</span><br />Web App Development</li>
+                <li>
+                  <span>Editing</span><br />Adobe After Effect <br />Adobe
+                  Photoshop <br />Adobe Premiere Pro
+                </li>
+                <li>
+                  <span>Ms.Office</span><br />Word <br />
+                  Powerpoint
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2019 - 2022</span><br />SMA Negeri 3 Medan</li>
+                <li>
+                  <span>2023 - Current</span><br />North Sumatra University -
+                  Information Technology
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-col-1">
+            <img src="image/pas foto reg.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------Portfolio----------->
+    <div id="portfolio">
+      <div class="dcontainer">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="portfolio-list">
+          <div class="portfolio">
+            <img src="image/MacBook Air on a bed next to a cup of fresh coffee.jpeg">
+            <div class="layer">
+              <h3>Form Web</h3>
+              <p>Di form ini kita bisa mengisi form seperti pada umumnya, disini hanya menggunakan HTML & CSS saja. Ini juga merupakan tugas kuliah kedua di mata kuliah Pemograman web.</p>
+              <a href="https://nikiramandika.000webhostapp.com/tugas2.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="portfolio">
+            <img src="image/pin on appel.jpeg">
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>Di calculator ini kita bisa menghitung dua bilangan penjumlahan, pengurangan, perkalian & pembagian. Disini menggunakan HTML, CSS & JavaScript saja. Ini juga merupakan tugas kuliah ketiga di mata kuliah Pemograman web.</p>
+              <a href="https://nikiramandika.000webhostapp.com/tugas3.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="portfolio">
+            <img src="image/Photo by Walling on Unsplash.jpeg">
+            <div class="layer">
+              <h3>Bootstrap</h3>
+              <p>Di sini saya membuat suatu website yang berjudul masak kuy, disini membuatnya memakai Bootstrap. Ini juga merupakan tugas kuliah keempat di mata kuliah Pemograman web.</p>
+              <a href="https://nikiramandika.000webhostapp.com/tugas4.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+<!------------Contact----------->
+<div id="contact">
+  <div class="dcontainer">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i> nikiramandika@icloud.com</p>
+        <p><i class="fa-solid fa-phone"></i> 081269447678</p>
+        <div class="social-icons">
+          <a href="https://instagram.com/_ramandika"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@nikiramandika"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://github.com/nikiramandika"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Nikiramandika. 2023</p>
+  </div>
+</div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      window.addEventListener("scroll", function(){
+      var navbar = document.getElementById("navbar");
+      navbar.classList.toggle("turun", window.scrollY > 800)
+      })
+    </script>
+    
+  </body>
+</html>
